@@ -15,9 +15,18 @@ namespace CSharpFundamentalsUnderstandingArrays
             numbers[4] = 23;
             */
 
+            /*
             int[] numbers = new int[] { 4, 8, 15, 16, 23, 41 };
 
             Console.WriteLine(numbers[1].ToString());
+            Console.ReadLine(); */
+
+            string [] names = new string[] {"Eddie", "Alex","Michael","David Lee"};
+
+            foreach (string name in names)
+            {
+                Console.WriteLine(name);
+            }
             Console.ReadLine();
 
         }
