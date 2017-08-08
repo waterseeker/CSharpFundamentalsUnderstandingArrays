@@ -36,7 +36,7 @@ namespace CSharpFundamentalsUnderstandingArrays
             Array.Reverse(charArray);
 
             foreach (char zigChar in charArray)
-                Console.WriteLine(zigChar);
+                Console.Write(zigChar);
 
             Console.ReadLine();
 
