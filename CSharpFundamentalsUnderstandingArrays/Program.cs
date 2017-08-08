@@ -21,12 +21,23 @@ namespace CSharpFundamentalsUnderstandingArrays
             Console.WriteLine(numbers[1].ToString());
             Console.ReadLine(); */
 
-            string [] names = new string[] {"Eddie", "Alex","Michael","David Lee"};
+            //string [] names = new string[] {"Eddie", "Alex","Michael","David Lee"};
 
-            foreach (string name in names)
-            {
-                Console.WriteLine(name);
-            }
+            //foreach (string name in names)
+            //{
+            //    Console.WriteLine(name);
+            //}
+            //Console.ReadLine();
+
+            string zig = "You can get what you want out of life " +
+                "if you help enough other people get what they want.";
+
+            char[] charArray = zig.ToCharArray();
+            Array.Reverse(charArray);
+
+            foreach (char zigChar in charArray)
+                Console.WriteLine(zigChar);
+
             Console.ReadLine();
 
         }
