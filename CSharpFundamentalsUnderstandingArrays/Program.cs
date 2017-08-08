@@ -33,6 +33,7 @@ namespace CSharpFundamentalsUnderstandingArrays
                 "if you help enough other people get what they want.";
 
             char[] charArray = zig.ToCharArray();
+            Console.WriteLine(charArray.Length);
             Array.Reverse(charArray);
 
             foreach (char zigChar in charArray)
