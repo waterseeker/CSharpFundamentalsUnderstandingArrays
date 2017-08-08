@@ -6,7 +6,16 @@ namespace CSharpFundamentalsUnderstandingArrays
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] numbers = new int[5];
+            numbers[0] = 4;
+            numbers[1] = 8;
+            numbers[2] = 15;
+            numbers[3] = 16;
+            numbers[4] = 23;
+
+            Console.WriteLine(numbers[1].ToString());
+            Console.ReadLine();
+
         }
     }
 }
